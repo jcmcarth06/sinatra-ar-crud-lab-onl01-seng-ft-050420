@@ -14,7 +14,7 @@ class ApplicationController < Sinatra::Base
 
   get '/articles/new' do
     erb :new
-    
+
   end
 
   post '/articles' do
@@ -28,21 +28,21 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/articles/:id/edit' do
-    
+
   end
 
   put 'articles/:id' do
-    
+
   end
 
   patch '/articles/:id' do
-    
+
   end
 
   delete '/articles/:id' do
-    
+
   end
 
-  
+
 
 end
