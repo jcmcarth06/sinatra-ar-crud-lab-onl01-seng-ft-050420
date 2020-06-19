@@ -28,7 +28,6 @@ class ApplicationController < Sinatra::Base
 
   get '/articles/:id/edit' do
     Article.destroy(params[:id])
-
     erb :edit
   end
 
