@@ -34,7 +34,7 @@ class ApplicationController < Sinatra::Base
   put 'articles/:id' do
     @article = Article.find(params[:id])
     Article.update(title: params[:title], content: params[:content])
-    
+
 
   end
 
